@@ -78,10 +78,10 @@ public class Lab2 extends JFrame {
         g2.draw(gp);
 
         g2.setStroke(new BasicStroke(1f));
-        gp = createTriangle(380f);
+        gp = createTriangle(360f);
         g2.draw(gp);
 
-        Ellipse2D ellipse = new Ellipse2D.Double(315,60,75,70);
+        Ellipse2D ellipse = new Ellipse2D.Double(305,60,75,70);
 
         g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
                 RenderingHints.VALUE_ANTIALIAS_ON);
