@@ -30,7 +30,7 @@ public class SimplePaint extends JFrame {
         JPanel sliderStrokePanel = new JPanel();
         sliderStrokePanel.setLayout(new GridLayout(2,1));
 
-        JSlider strokeSizeSlider = new JSlider(1,100,5);
+        JSlider strokeSizeSlider = new JSlider(1,200,20);
 
         sliderStrokeSizeValue = new JLabel(String.valueOf(strokeSizeSlider.getValue()));
         sliderStrokePanel.add(sliderStrokeSizeValue, BorderLayout.SOUTH);
@@ -45,7 +45,6 @@ public class SimplePaint extends JFrame {
     }
 
     public static void main(String[] args) {
-//Создаем окно как безымянный объект, потому что имя его нам не нужно
         new SimplePaint("Очень простой редактор");
     }
 }

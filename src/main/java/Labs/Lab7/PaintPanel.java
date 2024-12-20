@@ -13,6 +13,7 @@ public class PaintPanel extends JPanel implements ActionListener, MouseListener,
     protected float strokeSize = 5f;
     protected Color curColor = Color.BLACK;
     protected JFrame f;
+    public enum FIGURES_TYPES { CIRCLE, BOX };
 
     public PaintPanel(JFrame frame, int width, int height) {
         super();
